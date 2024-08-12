@@ -8,6 +8,8 @@
   /* Variáveis CSS */
   :root {
     --primary-color: #39aae1;
+    --secondary-color: #0079c7;
+    --tertiary-color: #2b4c99; 
     --gray-color: #727272;
     --font-family: Arial, sans-serif;
   }
@@ -104,9 +106,26 @@
 }
 
 .banner_options {
+  display: flex;
   height: 210px;
+  
 }
 
+.banner1,
+.banner2,
+.banner3 {
+  flex: 1;
+}
+
+.banner1 {
+  background-color: var(--primary-color);
+}
+.banner2 {
+  background-color: var(--secondary-color);
+}
+.banner3 {
+  background-color: var(--tertiary-color);
+}
 
   
   /* ... */
