@@ -1,0 +1,68 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Variáveis CSS */
+  :root {
+    --primary-color: #39aae1;
+    --secondary-color: #727272;
+    --font-family: Arial, sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-family);
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+  }
+  
+  nav .active a,
+  nav a:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  /* ... */
