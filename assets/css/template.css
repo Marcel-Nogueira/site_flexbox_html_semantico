@@ -5,13 +5,14 @@
     padding: 0;
   }
   
-  /* Variáveis CSS */
+  /* Variables CSS  */
   :root {
     --primary-color: #39aae1;
     --secondary-color: #0079c7;
     --gray-color: #727272;
     --tertiary-color: #2b4c99; 
     --primary-font-color: #fff;
+    --secondary-font-color: #000;
     --shadow-color: #555;
     --font-family: Arial, sans-serif;
   }
@@ -20,7 +21,7 @@
     font-family: var(--font-family);
   }
   
-  /* Header */
+  /* Header Content */
   header {
     display: flex;
     justify-content: center;
@@ -69,7 +70,7 @@
     color: var(--primary-font-color);
   }
   
-  /* BANNER */
+  /* Banner Content */
 
   #banner {
     display: flex;
@@ -159,4 +160,40 @@
 }
 
 
+/* General Content */
+
+  #general {
+    display: flex;
+    justify-content: center;
+
+  }  
+
+  #general section {
+    flex: 2;
+  }
+
+  #general aside {
+    flex:1;
+  }
+  
+  .widget_title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }  
+
+  .widget_title_text {
+    color: var(--secondary-font-color);
+    font-size: 21px;
+    font-weight: bold;
+  }
+
+  .widget_title_bar {
+    width: 50px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: var(--primary-color);
+  }
   /* ... */
+
+
+
