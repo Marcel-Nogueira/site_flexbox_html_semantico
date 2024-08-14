@@ -301,6 +301,11 @@ aside .aside_thumbnail {
   border-bottom: 1px solid var(--gray-color);
   line-height: 19px;
   height: 30px;
+  color: var(--gray-color);
+}
+
+.contacts_description img {
+  max-width: 20px;
 }
 
 
