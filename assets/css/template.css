@@ -212,11 +212,28 @@ article .news_data {
 }
 
 article .news_posted_at {
-  background-color: var(--tertiary-color);
+  background-color: var(--tertiary-color); 
   color: var(--primary-font-color);
   font-size: 12px;
   padding: 10px;
 }
+
+article .news_posted_at::after {
+  
+  /* Date bottom blue effect */  
+  content: "";
+  display: block;
+  position: absolute;
+
+  background-color: var(--tertiary-color);
+  margin-left: -10px;
+  margin-top: -5px;
+  width: 25px;
+  height: 25px;
+
+  clip-path: polygon(0 50%, 50% 50%, 0% 100%);
+}
+
 article .news_comments {
   background-color: var(--primary-color);
   color: var(--primary-font-color);
@@ -261,12 +278,18 @@ footer {
   display: flex;
 }
 
+.footer_menu a {
+  display:block;
+  text-decoration: none;
+  color: var(--primary-font-color);
+  padding: 20px;
+}
+
 .footer_menu1,
 .footer_menu2,
 .footer_menu3 {
   flex: 1;
   color: var(--primary-font-color);
-  padding: 20px;
 }
 
 .footer_menu1 {
