@@ -265,6 +265,23 @@ article .news_resume {
   margin-bottom: 30px;
 }
 
+/* Aside Content */
+
+aside .aside_thumbnail {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 15px 10px 0px;
+  max-width: 150px;
+  padding: 5px;
+
+}
+
+.aside_thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+
 /* Footer Content */
 
 footer {
