@@ -1,14 +1,14 @@
 ![Badge](https://img.shields.io/static/v1?label=webpack&message=webpack&color=79589F&style=for-the-badge&logo=webpack)
 
-#Projeto Site Responsivo com Flexbox + HTML Semantico
+# Projeto Site Responsivo com Flexbox + HTML Semantico
 
-##Status Projetc 
+## Status Projetc 
 - in progress
 
-##Project Video Preview
+## Project Video Preview
 - Coming soon
 
-##My Social Media
+## My Social Media
 
 https://www.linkedin.com/in/marcel-nogueira1/
 
