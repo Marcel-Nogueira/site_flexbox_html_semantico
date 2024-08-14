@@ -381,15 +381,6 @@ footer .widget_title_text {
   color: var(--primary-font-color);
 }
 
-.footer_copy {
-  margin-top: 30px;
-  height: 40px;
-  line-height: 40px;
-  border-top: 1px solid var(--shadow-color);
-  color: var(--gray-color);
-  font-size: 12px;
-
-}
 
 .footer_body {
   color: var(--gray-color);
@@ -402,7 +393,21 @@ footer .widget_title_text {
 }
 
 .footer_body_social img {
-  margin-top: 20px;
-  max-width: 35px;
+  margin-top: 90px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-font-color);
+  margin-right: 10px;
+  padding: 7px;
 }
 
+
+.footer_copy {
+  margin-top: 250px;
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px solid var(--shadow-color);
+  color: var(--gray-color);
+  font-size: 12px;
+
+}
