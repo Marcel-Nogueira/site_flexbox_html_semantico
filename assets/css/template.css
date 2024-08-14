@@ -281,6 +281,28 @@ aside .aside_thumbnail {
   height: auto;
 }
 
+.aside_widget a {
+  font-size: 14px;
+  display: block;
+  text-decoration: none;
+  color: var(--gray-color);
+}
+
+/* Contacts Content */
+
+.contacts {
+  margin-top: 40px;
+  font-size: 13px;
+
+}
+
+.contacts_description {
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--gray-color);
+  line-height: 19px;
+  height: 30px;
+}
+
 
 /* Footer Content */
 
