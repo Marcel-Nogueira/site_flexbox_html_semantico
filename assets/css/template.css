@@ -283,6 +283,7 @@ footer {
   text-decoration: none;
   color: var(--primary-font-color);
   padding: 20px;
+  font-size: 20px;
 }
 
 .footer_menu1,
@@ -302,6 +303,13 @@ footer {
   background-color: var(--tertiary-color);
 }
 
+footer .footer_menu_description {
+  display: flex;
+  padding: 20px 20px 20px 0;
+  font-size: 14px;
+
+
+}
 
 .flexColumn {
   flex-direction: column;
