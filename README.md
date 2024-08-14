@@ -2,7 +2,7 @@
 
 # Projeto Site Responsivo com Flexbox + HTML Semantico
 
-## Status Projetc 
+## Project Status... 
 - in progress
 
 ## Project Video Preview
