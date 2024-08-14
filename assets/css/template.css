@@ -302,12 +302,18 @@ aside .aside_thumbnail {
   line-height: 19px;
   height: 30px;
   color: var(--gray-color);
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
 }
 
 .contacts_description img {
-  max-width: 20px;
+  max-width: 22px;
 }
 
+.contacts_text {
+  margin-left: 10px;
+}
 
 /* Footer Content */
 
