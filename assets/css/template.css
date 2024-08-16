@@ -427,6 +427,7 @@ footer .widget_title_text {
 }
 
 .footer_copy {
+  display: flex;
   margin-top: 250px;
   height: 40px;
   line-height: 40px;
@@ -434,3 +435,15 @@ footer .widget_title_text {
   color: var(--gray-color);
   font-size: 12px;
 }
+
+.footer_copy_white {
+  color: var(--primary-font-color);
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.footer_copy_gray {
+  color: var(--gray-color);
+}
+
+
