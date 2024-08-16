@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/7593e808-566f-4a38-9d0f-9e75b97c405f
 
 
 #### Footer img
-![footer](https://github.com/user-attachments/assets/ded939d9-038b-4073-ac21-89cb7fb03453)
+![footer](https://github.com/user-attachments/assets/6a69be19-e127-4d9e-bd05-14062703f2dc)
 
 
 ## My Social Media
