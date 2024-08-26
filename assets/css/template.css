@@ -428,7 +428,7 @@ footer .widget_title_text {
 
 .footer_copy {
   display: flex;
-  margin-top: 250px;
+  margin-top: 20px;
   height: 40px;
   line-height: 40px;
   border-top: 1px solid var(--shadow-color);
@@ -446,4 +446,45 @@ footer .widget_title_text {
   color: var(--gray-color);
 }
 
+
+@media (max-width:600px) {
+  
+  /*BANNER CONTENT*/
+  .banner_headline h1 {
+    font-size: 55;
+  }
+
+  .banner_headline h2 {
+    font-size: 17;
+  }
+  
+  .banner_options {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .banner_headline {
+    padding: 20px;
+  }
+  
+  /*CONTAINER CONTENT*/
+  .container {
+    flex-direction: column;
+  }
+
+  #general {
+    padding-top: 170px;
+  }
+  #general section, 
+  #general aside, {
+    padding: 20px;
+  }
+
+
+  /*FOOTER CONTENT*/
+
+  .footer_area {
+    padding: 0px 20px 20px 20px ;
+  }
+}
 
