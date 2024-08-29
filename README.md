@@ -8,21 +8,17 @@
 
 ## Project Video Preview
 
-https://github.com/user-attachments/assets/7593e808-566f-4a38-9d0f-9e75b97c405f
 
 
 ## Project image Preview
 
 #### Header img
-![header](https://github.com/user-attachments/assets/6ccac8bc-2eff-4660-9b93-72bee5afcb13)
 
 
 #### Center img
-![center](https://github.com/user-attachments/assets/9a96b7e7-110a-4e8f-a02e-6811d72e3eb6)
 
 
 #### Footer img
-![footer](https://github.com/user-attachments/assets/6a69be19-e127-4d9e-bd05-14062703f2dc)
 
 
 ## My Social Media
