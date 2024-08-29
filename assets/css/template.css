@@ -29,6 +29,18 @@ header {
   height: 120px;
 }
 
+.menu_mobile {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin: 40px 20px 40px 0px ;
+}
+
+.menu_mobile_line {
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -449,6 +461,31 @@ footer .widget_title_text {
 
 @media (max-width:600px) {
   
+  /*HEADER CONTENT*/
+
+  header .container {
+    flex-direction: row;
+  }
+
+  nav ul {
+    flex-direction: column;
+    display: none;
+  }
+
+  header {
+    height: auto;
+  }
+
+  .logo {
+    padding-left: 20px;
+  }
+  
+  .menu_mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
   /*BANNER CONTENT*/
   .banner_headline h1 {
     font-size: 55;
@@ -495,5 +532,6 @@ footer .widget_title_text {
   .footer_copy {
     padding-left: 20px;
   }
+
 }
 
