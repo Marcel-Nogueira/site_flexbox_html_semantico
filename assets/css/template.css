@@ -33,7 +33,7 @@ header {
   display: none;
   width: 40px;
   height: 40px;
-  margin: 40px 20px 40px 0px ;
+  margin: 40px 20px 40px 0px;
 }
 
 .menu_mobile_line {
@@ -111,6 +111,7 @@ nav a:hover {
   text-shadow: 0px 2px 0px var(--shadow-color);
   max-width: 350px;
 }
+
 .banner_headline h2 {
   color: var(--primary-font-color);
   font-size: 21px;
@@ -135,9 +136,11 @@ nav a:hover {
 .banner1 {
   background-color: var(--primary-color);
 }
+
 .banner2 {
   background-color: var(--secondary-color);
 }
+
 .banner3 {
   background-color: var(--tertiary-color);
 }
@@ -160,6 +163,7 @@ nav a:hover {
   font-size: 15px;
   padding: 5px;
 }
+
 .hour_description {
   display: flex;
   justify-content: space-between;
@@ -353,9 +357,11 @@ footer {
 .footer_menu1 {
   background-color: var(--primary-color);
 }
+
 .footer_menu2 {
   background-color: var(--secondary-color);
 }
+
 .footer_menu3 {
   background-color: var(--tertiary-color);
 }
@@ -401,9 +407,11 @@ footer .widget_title_text {
 .footer_phone_number1 {
   margin-left: 70px;
 }
+
 .footer_phone_number2 {
   margin-left: 110px;
 }
+
 .footer_email {
   margin-left: 60px;
   color: var(--primary-font-color);
@@ -459,8 +467,11 @@ footer .widget_title_text {
 }
 
 
+/*MOBILE CONTENT*/
+
+
 @media (max-width:600px) {
-  
+
   /*HEADER CONTENT*/
 
   header .container {
@@ -470,6 +481,10 @@ footer .widget_title_text {
   nav ul {
     flex-direction: column;
     display: none;
+    position: absolute; /* Elemento fica por cima de todos os outros*/
+    left: 0; /* Posicionamento total a esquerda */
+    width: 100%;
+    background-color: var(--primary-font-color);
   }
 
   header {
@@ -479,7 +494,7 @@ footer .widget_title_text {
   .logo {
     padding-left: 20px;
   }
-  
+
   .menu_mobile {
     display: flex;
     flex-direction: column;
@@ -494,7 +509,7 @@ footer .widget_title_text {
   .banner_headline h2 {
     font-size: 17;
   }
-  
+
   .banner_options {
     height: auto;
     flex-direction: column;
@@ -503,7 +518,7 @@ footer .widget_title_text {
   .banner_headline {
     padding: 20px;
   }
-  
+
   /*CONTAINER CONTENT*/
   .container {
     flex-direction: column;
@@ -512,7 +527,8 @@ footer .widget_title_text {
   #general {
     padding-top: 170px;
   }
-  #general section, 
+
+  #general section,
   #general aside {
     padding: 20px;
   }
@@ -520,13 +536,13 @@ footer .widget_title_text {
 
   /*FOOTER CONTENT*/
 
-  .footer_menu, 
+  .footer_menu,
   .footer_area {
     flex-direction: column;
   }
 
   .footer_area {
-    padding: 0px 20px 20px 20px ;
+    padding: 0px 20px 20px 20px;
   }
 
   .footer_copy {
@@ -534,4 +550,3 @@ footer .widget_title_text {
   }
 
 }
-
