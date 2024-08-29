@@ -8,7 +8,6 @@
 
 ## Project Video Preview
 
-https://github.com/user-attachments/assets/7593e808-566f-4a38-9d0f-9e75b97c405f
 
 
 ## Project image Preview
