@@ -483,8 +483,17 @@ footer .widget_title_text {
 
   /*FOOTER CONTENT*/
 
+  .footer_menu, 
+  .footer_area {
+    flex-direction: column;
+  }
+
   .footer_area {
     padding: 0px 20px 20px 20px ;
+  }
+
+  .footer_copy {
+    padding-left: 20px;
   }
 }
 
