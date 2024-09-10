@@ -44,9 +44,9 @@ https://github.com/user-attachments/assets/cf1d7664-7b39-418a-a080-6ac1a134b271
 ![6 - Footer 2](https://github.com/user-attachments/assets/c460456f-9a8f-454a-bac0-3b50b57d3c50)
 
 
-
 ## My Social Media
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcel-nogueira1/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nogueira.devmasters@gmail.com)
 
-https://www.linkedin.com/in/marcel-nogueira1/
 
 Today is an incredible day to start a new project
